@@ -1,6 +1,9 @@
 #!/bin/bash
 
-rm ./*.csv
+### requisiti ###
+# - csvkit https://csvkit.readthedocs.io
+# - pup https://github.com/EricChiang/pup
+### requisiti ###
 
 # download area Italia elezioni Camera 2013-02-24
 curl "http://elezionistorico.interno.gov.it/index.php?tpel=C&dtel=24/02/2013&tpa=I&tpe=A&lev0=0&levsut0=0&es0=S&ms=S" |
