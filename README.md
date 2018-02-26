@@ -7,6 +7,7 @@
         - [Modifica del separatore di campo](#modifica-del-separatore-di-campo)
         - [File prodotti](#file-prodotti)
     - [Download](#download)
+    - [Risorse](#risorse)
 
 <!-- /TOC -->
 # Dati sulle elezioni di Camera e Senato del 24/02/2013
@@ -74,6 +75,10 @@ In output i seguenti file:
 I dati si trovano in [questa cartella](https://github.com/ondata/elezionipolitiche2013/tree/master/csv).
 
 Tutti i CSV di output hanno come *encoding* l'`UTF-8` e come separatore la `,`.
+
+## Risorse
+
+- l'[anagrafica](../risorse/AnagraficaComuni2013.csv) dei codici ISTAT dei comuni di questi dataset.
 
 ---
 
