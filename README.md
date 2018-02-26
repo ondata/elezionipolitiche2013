@@ -78,7 +78,7 @@ Tutti i CSV di output hanno come *encoding* l'`UTF-8` e come separatore la `,`.
 
 ## Risorse
 
-- l'[anagrafica](../risorse/AnagraficaComuni2013.csv) dei codici ISTAT dei comuni di questi dataset.
+- l'[anagrafica](../master/risorse/README.md) dei codici ISTAT dei comuni di questi dataset.
 
 ---
 
