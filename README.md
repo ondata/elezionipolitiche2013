@@ -24,8 +24,6 @@ Cosa fa lo script:
 
 ## Pulizia, correzione e trasformazione
 
-Tutti i CSV di output hanno come *encoding* l'`UTF-8` e come separatore la `,`.
-
 ### Due righe vuote nell'intestazione
 
 Tutti i file sono fatti così:
@@ -74,6 +72,8 @@ In output i seguenti file:
 ## Download
 
 I dati si trovano in [questa cartella](https://github.com/ondata/elezionipolitiche2013/tree/master/csv).
+
+Tutti i CSV di output hanno come *encoding* l'`UTF-8` e come separatore la `,`.
 
 ---
 
