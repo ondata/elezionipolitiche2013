@@ -6,7 +6,7 @@
         - [Mancanza del separatore nell'intestazione](#mancanza-del-separatore-nellintestazione)
         - [Modifica del separatore di campo](#modifica-del-separatore-di-campo)
         - [File prodotti](#file-prodotti)
-        - [Download](#download)
+    - [Download](#download)
 
 <!-- /TOC -->
 # Dati sulle elezioni di Camera e Senato del 24/02/2013
@@ -71,7 +71,7 @@ In output i seguenti file:
   - [`scrutiniCamera.csv`](https://github.com/ondata/elezionipolitiche2013/blob/master/csv/scrutiniCamera.csv)
   - [`scrutiniSenato.csv`](https://github.com/ondata/elezionipolitiche2013/blob/master/csv/scrutiniSenato.csv)
 
-### Download
+## Download
 
 I dati si trovano in [questa cartella](https://github.com/ondata/elezionipolitiche2013/tree/master/csv).
 
