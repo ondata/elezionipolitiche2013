@@ -51,14 +51,14 @@ mkdir -p ./csv
 # correggo un errore nei file SCRUTINI
 for i in SCRUTINI*.csv; do sed -i -r '3 s/non valide$/non valide;/' "$i"; done
 
-# rimuovo le prime due righe e imposto come separatore la ";", creadno dei nuovi file di output
+# rimuovo le prime due righe e imposto come separatore la ";", creando dei nuovi file di output
 for i in *.csv; do csvclean "$i" --skip-lines 2 -d ";"; done
 
 mv ./*_out.csv ./csv
 
 cd ./csv
 
-# crero l'anagrafica
+# creo l'anagrafica
 for i in LISTE-S*.csv; do echo "$i" | sed -r 's/^(.*?-.*?-.*?-.*?-)(.*?)-(.*?)-Comune.*$/\2,\3/g'; done >./00_anagraficaSenato.csv
 sed -i '1 i\circoscrizione,provincia' ./00_anagraficaSenato.csv
 for i in LISTE-C*.csv; do echo "$i" | sed -r 's/^(.*?-.*?-.*?-.*?-)(.*?)-(.*?)-Comune.*$/\2,\3/g'; done >./00_anagraficaCamera.csv
