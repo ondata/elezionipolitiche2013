@@ -1,6 +1,17 @@
+<!-- TOC -->
+
+- [Dati sulle elezioni di Camera e Senato del 24/02/2013](#dati-sulle-elezioni-di-camera-e-senato-del-24022013)
+    - [Pulizia, correzione e trasformazione](#pulizia-correzione-e-trasformazione)
+        - [Due righe vuote nell'intestazione](#due-righe-vuote-nellintestazione)
+        - [Mancanza del separatore nell'intestazione](#mancanza-del-separatore-nellintestazione)
+        - [Modifica del separatore di campo](#modifica-del-separatore-di-campo)
+        - [File prodotti](#file-prodotti)
+        - [Download](#download)
+
+<!-- /TOC -->
 # Dati sulle elezioni di Camera e Senato del 24/02/2013
 
-Uno script per scaricare e pulire i dati presenti nell'[Archivio storico delle elezioni](http://elezionistorico.interno.gov.it/index.php) del ministero dell'interno.
+Uno [script bash](https://github.com/ondata/elezionipolitiche2013/blob/master/dw.sh) per scaricare e pulire i dati presenti nell'[Archivio storico delle elezioni](http://elezionistorico.interno.gov.it/index.php) del ministero dell'interno.
 
 Cosa fa lo script:
 
@@ -55,7 +66,11 @@ In output i seguenti file:
 
 - i singoli file, così come presenti nel sito di origine, ma con le operazioni di pulizia e trasformazione descritte sopra;
 - il merge di tutti i file singoli in 4 file di insieme:
-  - `listeSenato.csv`
-  - `listeCamera.csv`
-  - `scrutiniCamera.csv`
-  - `scrutiniSenato.csv`
+  - [`listeSenato.csv`](https://github.com/ondata/elezionipolitiche2013/raw/master/csv/listeSenato.csv)
+  - [`listeCamera.csv`](https://github.com/ondata/elezionipolitiche2013/raw/master/csv/listeCamera.csv)
+  - [`scrutiniCamera.csv`](https://github.com/ondata/elezionipolitiche2013/blob/master/csv/scrutiniCamera.csv)
+  - [`scrutiniSenato.csv`](https://github.com/ondata/elezionipolitiche2013/blob/master/csv/scrutiniSenato.csv)
+
+### Download
+
+I dati si trovano in [questa cartella](https://github.com/ondata/elezionipolitiche2013/tree/master/csv).
