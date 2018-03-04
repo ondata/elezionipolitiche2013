@@ -83,7 +83,7 @@ Tutti i CSV di output hanno come *encoding* l'`UTF-8` e come separatore la `,`.
 
 ## Elaborazioni
 
-- [Dati camera 2013, per confronto con dati 2018](../master/risorse/README.md)
+- [Dati camera 2013, per confronto con dati 2018](../master/elaborazioni/confronto)
 
 
 ---
