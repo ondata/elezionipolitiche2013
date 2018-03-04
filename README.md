@@ -8,6 +8,7 @@
         - [File prodotti](#file-prodotti)
     - [Download](#download)
     - [Risorse](#risorse)
+    - [Elaborazioni](#elaborazioni)
 
 <!-- /TOC -->
 # Dati sulle elezioni di Camera e Senato del 24/02/2013
@@ -79,6 +80,11 @@ Tutti i CSV di output hanno come *encoding* l'`UTF-8` e come separatore la `,`.
 ## Risorse
 
 - l'[anagrafica](../master/risorse/README.md) dei codici ISTAT dei comuni di questi dataset.
+
+## Elaborazioni
+
+- [Dati camera 2013, per confronto con dati 2018](../master/risorse/README.md)
+
 
 ---
 
